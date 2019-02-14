@@ -1,0 +1,22 @@
+%message{
+    font-size: serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid red;
+    margin: 30px;
+}
+
+.parteuno{
+    @extend %message;
+    background-color: aquamarine
+}
+
+.partedos{
+    @extend %message;
+    background-color: crimson;
+}
+
+.partetres{
+    @extend %message;
+    background-color: coral
+}
